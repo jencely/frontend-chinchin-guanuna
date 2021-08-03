@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent implements OnInit {
-
+  
+  selectedValue: string = 'val1';
+  
   constructor() { }
 
   ngOnInit(): void {

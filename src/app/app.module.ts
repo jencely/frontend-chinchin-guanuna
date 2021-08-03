@@ -4,9 +4,11 @@ import {FormsModule} from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-//primg
+//primg modules
+import {RadioButtonModule} from 'primeng/radiobutton';
 import {ButtonModule} from 'primeng/button';
-import {InputSwitchModule} from 'primeng/inputswitch';
+import {AccordionModule} from 'primeng/accordion';
+import {CardModule} from 'primeng/card';
 //componentes propio
 import { ProjectComponent } from './project/project.component';
 import { AuthorComponent } from './author/author.component';
@@ -32,7 +34,9 @@ import { UnderMaintenanceComponent } from './under-maintenance/under-maintenance
     FormsModule,
     AppRoutingModule,
     ButtonModule,
-    InputSwitchModule
+    RadioButtonModule,
+    AccordionModule,
+    CardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
