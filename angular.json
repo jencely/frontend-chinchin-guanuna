@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "d01ea734-9b0b-4ac1-9da3-2e319d54d287"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "frontend-chinchin-guanuna": {
+    "frontend-perez-valencia": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/frontend-chinchin-guanuna",
+            "outputPath": "dist/frontend-perez-valencia",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -30,10 +27,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/primeicons/primeicons.css",
-              "node_modules/primeng/resources/themes/saga-blue/theme.css",
-              "node_modules/primeng/resources/primeng.min.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -74,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "frontend-chinchin-guanuna:build:production"
+              "browserTarget": "frontend-perez-valencia:build:production"
             },
             "development": {
-              "browserTarget": "frontend-chinchin-guanuna:build:development"
+              "browserTarget": "frontend-perez-valencia:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "frontend-chinchin-guanuna:build"
+            "browserTarget": "frontend-perez-valencia:build"
           }
         },
         "test": {
@@ -108,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "frontend-chinchin-guanuna"
+  "defaultProject": "frontend-perez-valencia"
 }
