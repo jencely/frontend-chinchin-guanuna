@@ -6,6 +6,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
+=======
+//primg modules
+import {RadioButtonModule} from 'primeng/radiobutton';
+import {ButtonModule} from 'primeng/button';
+import {AccordionModule} from 'primeng/accordion';
+import {CardModule} from 'primeng/card';
+//componentes propio
+>>>>>>> 973fb252165cbbdd6471998f5ec8256a2183bfd9
 import { ProjectComponent } from './project/project.component';
 import { AuthorComponent } from './author/author.component';
 import { NotFoundComponent } from './not-found/not-found.component';
@@ -45,9 +54,15 @@ import { DropdownModule } from 'primeng/dropdown';
     ListboxModule,
     InputTextModule,
     ButtonModule,
+<<<<<<< HEAD
     DropdownModule,
     TableModule,
     HttpClientModule,
+=======
+    RadioButtonModule,
+    AccordionModule,
+    CardModule,
+>>>>>>> 973fb252165cbbdd6471998f5ec8256a2183bfd9
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,6 +12,7 @@ import themes from '../../assets/themes/themes.json';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent implements OnInit {
+<<<<<<< HEAD
   //Para componentes de primeng
   // checked: boolean = false;
   // cities: City[];
@@ -38,6 +39,12 @@ export class ProjectComponent implements OnInit {
     // ];
     this.formProject = this.newFormGroupProject();
   }
+=======
+  
+  selectedValue: string = 'val1';
+  
+  constructor() { }
+>>>>>>> 973fb252165cbbdd6471998f5ec8256a2183bfd9
 
   ngOnInit(): void {
     this.getProjects();
